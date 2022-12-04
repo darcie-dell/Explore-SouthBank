@@ -1,0 +1,388 @@
+/* CSS is sperated out into page sections and tags */
+
+.body_css {
+  background: rgb(160, 227, 242);
+  background: linear-gradient(
+    0deg,
+    rgba(160, 227, 242, 1) 5%,
+    rgba(38, 131, 227, 1) 70%
+  );
+}
+
+.header_css {
+  margin: -10px;
+  margin-top: -10px;
+}
+
+.nav_css {
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.nav_css a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Poor Story", cursive;
+  flex-flow: column nowrap;
+  padding: 20px;
+}
+
+.nav_css img {
+  width: 75px;
+  height: 70px;
+}
+
+.nav_css a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+hr {
+  width: 67%;
+  border: 3px solid black;
+  margin-bottom: 15px;
+}
+
+.header_css h1 {
+  font-size: 40px;
+  padding-top: 30px;
+  color: #fe0000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-decoration: none;
+}
+
+.main_css a {
+  text-decoration: none;
+}
+
+.header_css h2 {
+  color: black;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.active {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.game_prompt {
+  display: flex;
+  justify-content: center;
+}
+
+.game_prompt article {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+
+  background-color: white;
+  border: 8px groove #000;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+}
+
+.header_img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game_prompt section {
+  padding: 20px;
+}
+
+.game_prompt a {
+  padding: 5px;
+  color: #000;
+  font-weight: bolder;
+  color: #f2d95c;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 25px;
+}
+
+.body_css h1 {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.body_css P {
+  font-family: "Poor Story", cursive;
+  font-size: 20px;
+  min-width: 0;
+  font-weight: bolder;
+}
+
+/* Skips content when keyboard navgation is enabled */
+#skip a {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+#skip a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+.game_prompt img {
+  max-width: 150px;
+  max-height: 150px;
+  padding-top: 10px;
+}
+
+.cards_css {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards_css a {
+  text-decoration: none;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  max-width: 60%;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.card img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.card h3 {
+  font-family: "Press Start 2P", cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.card p {
+  font-family: "Poor Story", cursive;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 60px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.main_css .place_desc {
+  text-align: center;
+}
+
+.place_desc h3 {
+  font-family: "Press Start 2P", cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.place_desc p {
+  padding-bottom: 20px;
+}
+
+
+.main_css .place_desc img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+
+.about_css {
+  text-align: center;
+}
+
+.about_css p {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.about_css h3 {
+  text-align: center;
+  font-family: "Poor Story", cursive;
+  font-size: 50px;
+  color: #f2d95c;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+/* Contact us form using text inputs*/
+
+input[type="Submit"] {
+  border-radius: 8px;
+  font-family: "Press Start 2P", cursive;
+  background-color: #fe0000;
+  min-width: 100px;
+  max-width: 70%;
+  text-align: center;
+  font-weight: 450;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 4px solid #000;
+}
+
+.inputform {
+  text-align: center;
+}
+
+input[name="subject"] {
+  border-radius: 8px;
+  font-family: "Poor Story", cursive;
+  font-style: normal;
+  color: #2b292a;
+  font-size: 18px;
+  min-width: 300px;
+  height: 200px;
+}
+
+label {
+  height: auto;
+  display: block;
+  background-color: transparent;
+  text-align: center;
+  font-family: "Poor Story", cursive;
+  font-weight: 450;
+  font-style: normal;
+  color: black;
+  font-size: 28px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+input[type="text"] {
+  border-radius: 8px;
+  font-family: "Poor Story", cursive;
+  font-style: normal;
+  color: #2b292a;
+  font-size: 18px;
+  min-width: 300px;
+}
+
+.back_button{
+  font-family: "Poor Story", cursive;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #fe0000;
+  margin-bottom: 20px;
+}
+
+
+.footer_css {
+  margin: -20px;
+  margin-top: 0;
+  text-align: center;
+  background-color: #774d25;
+  height: 500px;
+}
+
+.icons_css {
+  background: url("images/ground.png");
+  margin: -20px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+/* MEDIA QUERIES */
+
+/* arrow symbol */
+#arrow_static {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #eb5f1c;
+  height: 0;
+  margin: 0px 0px 0px 0px;
+  margin-top: 5px;
+  position: relative;
+  width: 0;
+}
+
+/* media queries for responsiveness */
+@media screen and (max-width: 500px) {
+  .nav_css {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main_css img {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .main_css .place_desc img {
+    max-width: 30%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .card h4 {
+    font-size: 30px;
+  }
+}
+
+
